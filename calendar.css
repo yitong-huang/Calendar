@@ -1,0 +1,50 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: yellow;
+}
+
+#yt-calendar {
+	margin: 0;
+	padding: 10px;
+	width: 90%;
+	height: 80%;
+	background-color: white;
+}
+
+.yt-calendar-cell-head,
+.yt-calendar-cell-blank,
+.yt-calendar-cell-empty,
+.yt-calendar-cell-filled,
+.yt-calendar-cell-today,
+.yt-calendar-cell-after {
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+	margin: 2px;
+}
+
+.yt-calendar-cell-empty {
+	background-color: green;
+}
+
+.yt-calendar-cell-blank {
+	background-color: white;
+}
+
+.yt-calendar-cell-head {
+	background-color: black;
+}
+
+.yt-calendar-cell-today {
+	background-color: red;
+}
+
+.yt-calendar-cell-after {
+	background-color: chocolate;
+}
